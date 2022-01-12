@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>NEVERSIDE ROLEPLAY</title>
+	 <script src="https://kit.fontawesome.com/7e5b2d153f.js"crossorigin="anonymous"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+
+
+
+
+</head>
+<body>
+	<div class="control-nav">
+
+		 <div class="control-logo">
+        	<p class="logo">NEVERSIDE RP</p>
+        </div>
+
+		<button class="toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+
+      
+		<ul class="control-bar">
+			<li class="list active">INICIO</li>
+			<li class="list">CONTACTO</li>
+			<li class="list">DONACIONES</li>
+			<li class="list">COMUNIDAD</li>
+		</ul>
+
+
+	</div>
+
+
+
+<div class="control-container">
+	<div class="container-control">
+		<div class="container-title"><h1 class="control-title">NEVERSIDE</h1></div>
+
+		<div class="container-des"><p class="control-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consequuntur officia quis blanditiis iusto sunt veritatis perferendis nesciunt aspernatur vero perspiciatis magnam ipsa, possimus expedita eos veniam provident, voluptatum iste laboriosam, autem architecto modi, velit ab. Molestias ut reiciendis sequi.</p></div>
+
+		<div class="container-link"><a href="#" class="control-link">CONTACTANOS</a href="#"></div>
+	
+	</div>
+
+	<div class="img-control">
+		<img src="img_1.png" alt="" class="control-img">
+	</div>
+</div>
+<div class="control-box">
+		<div class="ad-container">
+			<video class="video" onloadstart="this.muted=true" autoplay loop>
+				<source src="video2.mp4" type="">
+			</video>
+			<div class="container-video-text">
+				<h1>NUEVOS EVENTOS</h1>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Autem unde perferendis quibusdam animi, nobis error itaque voluptas incidunt, quia, repudiandae impedit. Ut incidunt nam explicabo obcaecati impedit hic dolorem voluptatem fugiat molestias, quasi ipsam facere, ducimus tempore! Harum atque obcaecati nemo, fugiat nobis, sunt quod, commodi nihil quam ea amet.</p>
+			</div>	
+		</div>
+</div>
+
+	<div class="control-img-container">
+		<div class="img-control-container">
+			<img src="gta.jpg" alt="" class="img_control">
+				<div class="txt">
+				<h1>ELIJE TU VIDA</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ex saepe incidunt possimus quod necessitatibus eius voluptatibus esse reiciendis suscipit?</p>
+			</div>
+		</div>
+
+		<div class="img-control-container image">
+			<img src="gta2.jpg" alt="" class="img_control">
+			<div class="txt">
+				<h1>ESTO ES NEVERSIDE</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At ex saepe incidunt possimus quod necessitatibus eius voluptatibus esse reiciendis suscipit?</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+<script type="text/javascript">
+
+	const navToggle = document.querySelector(".toggle");
+	const navMenu = document.querySelector(".control-bar");
+
+	navToggle.addEventListener("click", () => {
+  	navMenu.classList.toggle("nav-visible");
+
+  	if (navMenu.classList.contains("nav-visible")) {
+    navToggle.setAttribute("aria-label", "Cerrar menú");} 
+    else {
+    navToggle.setAttribute("aria-label", "Abrir menú");
+  	}});
+
+</script>
+
+</body>
+</html>
